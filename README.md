@@ -375,6 +375,23 @@ All optional features are configured through `config.json` in the project root a
 | `REEZIUM_VT_API_KEY` | VirusTotal API key | `c5fdd5d...` |
 | `REEZIUM_ABUSEIPDB_API_KEY` | AbuseIPDB API key | `8d3ff2e...` |
 
+### Windows PowerShell (open it as Administrator)
+$env:REEZIUM_AI_PROVIDER = "gemini"
+$env:REEZIUM_AI_API_KEY = "your-gemini-key"
+$env:REEZIUM_VT_API_KEY = "your-virustotal-key"
+$env:REEZIUM_ABUSEIPDB_API_KEY = "your-abuseipdb-key"
+
+### Windows Command Prompt (Administrator)
+set REEZIUM_AI_API_KEY=your-gemini-key
+set REEZIUM_VT_API_KEY=your-virustotal-key
+set REEZIUM_ABUSEIPDB_API_KEY=your-abuseipdb-key
+
+### Linux (with sudo)
+sudo REEZIUM_AI_API_KEY="your-gemini-key" \
+     REEZIUM_VT_API_KEY="your-virustotal-key" \
+     REEZIUM_ABUSEIPDB_API_KEY="your-abuseipdb-key"
+
+     
 ### Default Models per Provider
 
 | Provider | Default Model |
