@@ -266,8 +266,8 @@ Cloud enrichment integrates at two points:
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/reezium-imager.git
-cd reezium-imager
+git clone https://github.com/risscheese/Reezium_Beta.git
+cd Reezium_Beta
 
 # Install dependencies
 pip install -r requirements.txt
