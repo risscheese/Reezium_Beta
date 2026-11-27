@@ -543,13 +543,7 @@ reezium-imager/
 │   ├── css/style.css           # Dashboard styles
 │   ├── js/script.js            # Frontend logic, charts, polling
 │   └── favicon.ico             # Application icon
-│
-└── tests/
-    ├── test_detection.py       # Detection engine unit tests
-    ├── diagnose_fp.py          # False-positive diagnostic utility
-    ├── scenarios/              # Automated threat-hunting scenario tests
-    ├── unit/                   # Unit test suite
-    └── results/                # Test output and evaluation data
+
 ```
 
 ---
